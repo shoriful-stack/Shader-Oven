@@ -9,7 +9,9 @@ Route::get('/', function () {
 })->name('home');
 
 // user
-Route::post('user-registration', [UserController::class, 'UserRegistration']);
+Route::post('/user-registration', [UserController::class, 'UserRegistration']);
+
+Route::post('/user-login', [UserController::class, 'UserLogin']);
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
