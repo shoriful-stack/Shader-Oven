@@ -12,6 +12,7 @@ Route::get('/', function () {
 Route::post('/user-registration', [UserController::class, 'UserRegistration']);
 
 Route::post('/user-login', [UserController::class, 'UserLogin']);
+Route::post('/otp', [UserController::class, 'OTPCode']);
 
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
