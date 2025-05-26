@@ -1,0 +1,23 @@
+Basic requirement:
+1. Should have product category listing
+2. Should have product listing
+3. Sales & Invoice feature
+4. Business report feature
+5. System Should be multi user, that many Business can use it by creating profile
+
+                            Road to development:
+
+**Phase-1**
+1. Planning User profile table
+2. User profile auth backend development
+3. User profile frontend development
+
+                        Objective: Developing User Auth Backend Features
+Steps:
+1. User Registration(endpoint)
+2. User Login & JWT token(endpoint)
+3. Sending OTP code to email- password recover stage 01(endpoint)
+4. Verify OTP code - password recover stage 02(endpoint)
+5. Allow user to reset password- password recover stage 03(endpoint)
+6. Allow user to get profile details(endpoint)
+7. Allow user to update profile details(endpoint)
