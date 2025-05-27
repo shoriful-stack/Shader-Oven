@@ -11,6 +11,26 @@ use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
+    function RegistrationPage(){
+        return view('pages.auth.registration-page');
+    }
+
+    function LoginPage(){
+        return view('pages.auth.login-page');
+    }
+
+    function SendOTPPage(){
+        return view('pages.auth.send-otp-page');
+    }
+
+    function VerifyOtpPage(){
+        return view('pages.auth.verify-otp-page');
+    }
+
+    function ResetPasswordPage(){
+        return view('pages.auth.registration-page');
+    }
+
     function UserRegistration(Request $request)
     {
         try {
